@@ -3,6 +3,7 @@ import { getCategoryAPI } from "@/apis/layout";
 import { getProductsAPI  } from "@/apis/home"
 import { onMounted, ref } from 'vue';
 import GoodsItem from "./GoodsItem.vue";
+import HomePanel from './HomePanel.vue'
 const goodsProductList = ref([])
 const getGoodsProductList = async () =>{
         // 解构语法

@@ -1,13 +1,12 @@
-<template>
-<header>
-  <RouterView></RouterView>
-  </header>
-</template>
-
-
 <script setup>
+ import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 </script>
 
+<template>
+  <el-config-provider :locale="zhCn">
+    <RouterView></RouterView>
+  </el-config-provider>
+  </template>
 
 <style scoped lang="scss">
 </style>

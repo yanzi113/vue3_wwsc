@@ -1,5 +1,5 @@
 <script setup>
-import GoodsItem from '../Home/component/GoodsItem.vue';
+import GoodsItem from '../Home/components/GoodsItem.vue';
 import { useBanner } from "@/views/Category/composables/useBanner";
 import {useCategory} from "@/views/Category/composables/useCategory";
 //  onBeforeRouteUpdate((to)=>{
